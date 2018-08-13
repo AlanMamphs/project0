@@ -1,0 +1,86 @@
+
+%font{
+  font-family:Alegreya SC;
+  font-size:16px;
+}
+
+$color:#cedaed;
+$padding:50px;
+$contrast:#f7f7f7;
+#image {
+  margin:0 auto;
+  max-width:100%;
+  height:auto;
+}
+
+.btn-group-justified {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  .btn,
+  .btn-group {
+    float: none;
+    display: table-cell;
+    width: 100%;
+    .btn {
+      width: 100%;
+    }
+    .dropdown-menu {
+      left: auto;
+    }
+  }
+}
+
+a:hover {
+	opacity: 0.7;
+
+}
+
+p>a {
+	font-weight: bold;
+
+}
+
+p, td {
+	color:#0f0f0f;
+	font-weight:100;
+}
+#main {
+
+	background-color: $color;
+	@extend %font;
+	.col-md-8{
+		background-color:$contrast;
+
+		min-height: 700px;
+
+		padding-bottom: $padding;
+
+		table {
+			td, th {
+				text-alignfont:center;
+				width:100px;
+				padding-left:$padding;
+				border: 1px solid $color;
+
+				}
+			@media screen and (min-width: 600px) {
+				td, th {
+				width:600px;
+				}	
+			}
+
+
+
+		}
+
+			p {
+				padding:$padding;
+
+			}
+	
+
+	}
+}
+
