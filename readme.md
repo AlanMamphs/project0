@@ -9,7 +9,7 @@ This is a tribute page subdivided in separate html files. In the project folder 
 - other sass files.
 
 
-## Technolog used
+## Technology used
 - HTML
 - SASS
 - CSS
